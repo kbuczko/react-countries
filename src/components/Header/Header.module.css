@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 18px;
+  padding-inline: 5%;
+}
+
+.header h1 {
+  font-size: 24px;
+}
+
+.darkModeBtn {
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 14px;
+}
+
+.darkModeBtn span {
+  padding-inline: 0.5em;
+}

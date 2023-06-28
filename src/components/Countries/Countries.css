@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@500;700&display=swap");
+
+.countries__list {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 3rem;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.countries__item {
+  display: inline-block;
+  background-color: #fff;
+  font-size: 14px;
+  padding-block-end: 1.5em;
+}
+
+.countries__item__title {
+  font-size: 16px;
+  padding-block-start: 1em;
+  padding-block-end: 0.5em;
+}
+
+.countries__item article p,
+.countries__item article h2 {
+  padding-inline: 1em;
+}
+
+.countries__item:hover {
+  cursor: pointer;
+}

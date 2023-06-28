@@ -1,0 +1,52 @@
+.d-block {
+  display: block;
+}
+
+@media screen and (min-width: 576px) {
+  .filters__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 2em;
+  }
+
+  .input__wrapper {
+    width: 30%;
+  }
+
+  select {
+    width: 15% !important;
+  }
+}
+
+.input__wrapper {
+  position: relative;
+  display: flex;
+  margin-block-start: 10px;
+}
+
+.input__icon {
+  position: absolute;
+  left: 16px;
+  top: 12px;
+  /*  top: calc(50% - 0.5em); */
+}
+
+.input__wrapper input {
+  width: 100%;
+  border-radius: 10px;
+  padding-block: 16px;
+  padding-left: 42px;
+  border: 1px solid black;
+}
+
+select {
+  margin: 20px 0 10px 0;
+  padding-block: 15px;
+  padding-inline: 10px;
+  background: #fff;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 50%;
+  max-width: 400px;
+}
